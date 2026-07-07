@@ -1,4 +1,4 @@
-<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/6a78d91e-87d2-4a8f-a2d0-632194d53ec1" /># 🌐 Hot Beans Web
+# 🌐 Hot Beans Web
 
 > A responsive recruitment website created as my Final College Web Development Project.
 

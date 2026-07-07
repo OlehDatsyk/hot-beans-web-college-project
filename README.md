@@ -1,4 +1,4 @@
-# 🌐 Hot Beans Web
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/6a78d91e-87d2-4a8f-a2d0-632194d53ec1" /># 🌐 Hot Beans Web
 
 > A responsive recruitment website created as my Final College Web Development Project.
 
@@ -40,20 +40,22 @@ Visit the website here:
 <img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/d14a0664-8446-418b-badd-4033c004ccb9" />
 
 ### ℹ️ About Us
-![About Page](Images/about-1.png)
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/a68da0e5-cd33-4708-bb6d-40857a7b695f" />
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/d1c79131-fb0a-4ee6-a1ff-21a48807bebc" />
 
 ### 👥 Meet the Team
-![Meet the Team](Images/about-2.png)
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/af93a266-80d0-4542-8ce3-b7e02d63e915" />
 
 ### 💼 Job Roles
-![Job Roles](Images/job-main.png)
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/68164c33-8850-4484-a57f-11f056c5c584" />
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/abaa3a25-a06d-4f73-a98a-275212f0f44c" />
 
 ### 📚 Courses
-![Courses](Images/thumb-1.png)
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/31a1f1f9-7a6d-4d87-99c4-e9b0ef43011c" />
 
 ### 📝 Apply Now
-![Apply Now](Images/about-4.png)
-
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/0dbae119-2103-4667-9b36-d7be05071a34" />
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/3e3f4943-f295-44de-b0f1-6aa521ca4717" />
 
 ---
 

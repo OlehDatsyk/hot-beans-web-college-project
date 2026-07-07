@@ -1,0 +1,161 @@
+<!DOCTYPE html> <!-- Defines the document type as HTML5 -->
+<html lang="en"> <!-- Root HTML element with English language -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the site responsive on different devices -->
+    <title>Courses & Learning: Hot Beans Web</title> <!-- Title shown in browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Links external CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet"> <!-- Imports Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Imports Font icons -->
+    <link rel="icon" type="image/jpg" href="images/logo.jpg"> <!-- Website logo -->
+</head>
+<body> <!-- Main content of the webpage -->
+<nav> <!-- Navigation bar -->
+    <div class="logo">Hot Beans Web</div> <!-- Website logo -->
+    <div class="hamburger"> <!-- Hamburger menu for mobile -->
+        <span></span> <!-- Line 1 -->
+        <span></span> <!-- Line 2 -->
+        <span></span> <!-- Line 3 -->
+    </div>
+    <ul class="nav-links"> <!-- Navigation links -->
+        <li><a href="index.html">Home</a></li> <!-- Home page -->
+        <li><a href="about.html">About</a></li> <!-- About page -->
+        <li><a href="meet-the-team.html">Meet the Team</a></li> <!-- Team page -->
+        <li><a href="job-roles.html">Job Roles</a></li> <!-- Jobs page -->
+        <li><a href="courses.html" class="active-home">Courses</a></li> <!-- Current page (active page) -->
+        <li><a href="apply-now.html" class="nav-apply">Apply Now</a></li> <!-- Apply page -->
+    </ul>
+</nav>
+
+    <main class="container"> <!-- Main content area -->
+        <h1 style="text-align: center;">Courses & Learning</h1> <!-- Page heading -->
+
+        <div id="course-1" class="course-page"> <!-- First course page -->
+        <div class="grid"> <!-- Grid layout -->
+            <div class="courses-card1" style="border-top: 5px solid var(--deep-blue);">
+                <h3>College Courses:</h3> <!-- Section title -->
+                <p>Local BTEC IT Level 3 courses are a great foundation.</p> <!-- Description -->
+                <a href="https://www.ucas.com/" target="_blank" style="color: var(--deep-blue); font-weight: bold;">Find Local Colleges</a> <!-- External link -->
+            </div>
+
+            <div class="courses-card2" style="border-top: 5px solid var(--teal);">
+                <h3>Online Courses:</h3>
+                <ul style="list-style: none; padding: 0; line-height: 2;"> <!-- List of links -->
+                    <li><a href="https://www.freecodecamp.org/learn/" target="_blank" style="color: var(--deep-blue); font-weight: bold;">FreeCodeCamp</a></li>
+                    <li><a href="https://www.codecademy.com/" target="_blank" style="color: var(--deep-blue); font-weight: bold;">Code Academy</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank" style="color: var(--deep-blue); font-weight: bold;">W3Schools</a></li>
+                </ul>
+            </div>
+
+            <div class="courses-card3" style="border-top: 5px solid var(--accent-orange);">
+                <h3>Apprenticeships:</h3>
+                <p>Earn while you learn with government-backed schemes.</p>
+                <a href="https://www.gov.uk/apply-apprenticeship" target="_blank" style="color: var(--deep-blue); font-weight: bold;">Gov.uk Apprenticeship</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="course-2" class="course-page" style="display:none;"> <!-- Hidden page -->
+        <div class="grid">
+            <div class="courses-card1" style="border-top: 5px solid var(--deep-blue);">
+                <h3>HTML & CSS Course</h3>
+                <p>Learn the fundamentals of building websites using HTML and CSS.</p>
+                <a href="https://www.freecodecamp.org/learn/" target="_blank" style="color: var(--deep-blue); font-weight: bold;">FreeCodeCamp - Responsive Web Design</a>
+            </div>
+
+            <div class="courses-card2" style="border-top: 5px solid var(--teal);">
+                <h3>JavaScript Basics</h3>
+                <p>Understand the core concepts of JavaScript for interactive websites.</p>
+                <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank" style="color: var(--deep-blue); font-weight: bold;">Codecademy - JavaScript Course</a>
+            </div>
+
+            <div class="courses-card3" style="border-top: 5px solid var(--accent-orange);">
+                <h3>Web Development Bootcamp</h3>
+                <p>A complete introduction to full-stack web development.</p>
+                <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank" style="color: var(--deep-blue); font-weight: bold;">Udemy - Web Development Bootcamp</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="course-3" class="course-page" style="display:none;">
+        <div class="grid">
+            <div class="courses-card1" style="border-top: 5px solid var(--deep-blue);">
+                <h3>Frontend Development</h3>
+                <p>Learn how to build modern user interfaces and responsive layouts.</p>
+                <a href="https://scrimba.com/learn/frontend" target="_blank" style="color: var(--deep-blue); font-weight: bold;">Scrimba - Frontend Developer Path</a>
+            </div>
+
+            <div class="courses-card2" style="border-top: 5px solid var(--teal);">
+                <h3>Git & GitHub</h3>
+                <p>Understand version control and how to manage code projects.</p>
+                <a href="https://github.com/" target="_blank" style="color: var(--deep-blue); font-weight: bold;">FreeCodeCamp - Version Control</a>
+            </div>
+
+            <div class="courses-card3" style="border-top: 5px solid var(--accent-orange);">
+                <h3>Python for Beginners</h3>
+                <p>Learn programming basics using Python.</p>
+                <a href="https://www.python.org/about/gettingstarted/" target="_blank" style="color: var(--deep-blue); font-weight: bold;">Python.org - Getting Started</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="course-4" class="course-page" style="display:none;">
+        <div class="grid">
+            <div class="courses-card1" style="border-top: 5px solid var(--deep-blue);">
+                <h3>UX/UI Design</h3>
+                <p>Learn how to design user-friendly and visually appealing interfaces.</p>
+                <a href="https://www.coursera.org/professional-certificates/google-ux-design" target="_blank" style="color: var(--deep-blue); font-weight: bold;">Coursera - Google UX Design Certificate</a>
+            </div>
+
+            <div class="courses-card2" style="border-top: 5px solid var(--teal);">
+                <h3>React Development</h3>
+                <p>Build modern web applications using React.</p>
+                <a href="https://react.dev/learn" target="_blank" style="color: var(--deep-blue); font-weight: bold;">React Official Documentation</a>
+            </div>
+
+            <div class="courses-card3" style="border-top: 5px solid var(--accent-orange);">
+                <h3>Backend Development</h3>
+                <p>Learn server-side programming and databases.</p>
+                <a href="https://www.theodinproject.com/paths/full-stack-javascript" target="_blank" style="color: var(--deep-blue); font-weight: bold;">The Odin Project - Full Stack Path</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+        <div class="page-navigation"> <!-- Navigation buttons -->
+            <button id="prevCourseBtn" class="btn-nav btn-prev">
+                <i class="fas fa-arrow-left"></i> Previous Page
+            </button> <!-- Button to go to previous course page -->
+            
+            <button id="nextCourseBtn" class="btn-nav btn-next">
+                Next Page <i class="fas fa-arrow-right"></i>
+            </button> <!-- Button to go to next course page -->
+        </div>
+    </main>
+
+<footer> <!-- Footer -->
+    <div class="footer-container">
+        <div class="footer-left">
+            <span class="footer-logo">Hot Beans</span> <!-- Footer logo -->
+        </div>
+
+        <div class="footer-center"> <!-- Centre -->
+            <a href="mailto:careers@hotbeans.com" class="footer-mail" style="color: var(--deep-blue); font-weight: bold;" ><u>careers@hotbeans.com</u></a> <!-- Email link -->
+        </div>
+
+        <div class="footer-right"> <!-- Right side -->
+            <div class="social-icons"> <!-- Social media links -->
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a> <!-- YouTube link -->
+                <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a> <!-- TikTok link -->
+                <a href="https://web.telegram.org/k/" target="_blank"><i class="fab fa-telegram"></i></a> <!-- Telegram link -->
+                <a href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a> <!-- Facebook link -->
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Instagram link -->
+            </div>
+        </div>
+        <p style="color: black;" position: absolute;>Made by Oleh Datsyk</p>
+    </div>
+</footer>
+<script src="script.js"></script> <!-- Links JavaScript -->
+</body>
+</html> <!-- End of document -->

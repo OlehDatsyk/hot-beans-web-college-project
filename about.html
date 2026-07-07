@@ -1,0 +1,105 @@
+<!DOCTYPE html> <!-- Defines the document type as HTML5 -->
+<html lang="en"> <!-- Root HTML element with English language -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes site responsive -->
+    <title>About Us: Hot Beans Web</title> <!-- Title shown in browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Links external CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet"> <!-- Imports Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Imports Font icons -->
+    <link rel="icon" type="image/jpg" href="images/logo.jpg"> <!-- Website logo -->
+</head>
+<body> <!-- Main page content -->
+
+    <nav> <!-- Navigation bar -->
+    <div class="logo">Hot Beans Web</div> <!-- Website logo -->
+    <div class="hamburger"> <!-- Hamburger menu for mobile -->
+        <span></span> <!-- Line 1 -->
+        <span></span> <!-- Line 2 -->
+        <span></span> <!-- Line 3 -->
+    </div>
+    <ul class="nav-links"> <!-- Navigation links -->
+        <li><a href="index.html">Home</a></li> <!-- Home page -->
+        <li><a href="about.html" class="active-home">About</a></li> <!-- Current page (active page) -->
+        <li><a href="meet-the-team.html">Meet the Team</a></li> <!-- Team page -->
+        <li><a href="job-roles.html">Job Roles</a></li> <!-- Jobs page -->
+        <li><a href="courses.html">Courses</a></li> <!-- Courses page -->
+        <li><a href="apply-now.html" class="nav-apply">Apply Now</a></li> <!-- Apply page -->
+    </ul>
+</nav>
+
+    <main class="container"> <!-- Main content container -->
+        <h1 style="text-align: center; margin-bottom: 40px;">About Hot Beans Web</h1> <!-- Page heading -->
+
+        <div class="grid"> <!-- Grid layout for content -->
+            <div style="flex: 2;"> <!-- Left side -->
+                <div class="card" style="flex: 1; text-align: left; border-bottom: none; background: #fff; border: 1px solid #ddd;"> <!-- Card section: Who We Are -->
+                <span class="btn-orange" style="border-radius: 5px; padding: 5px 15px; pointer-events: none; display: inline-block;">Who We Are</span> <!-- Section label -->
+                    <p style="margin-top: 15px;"> <!-- Description text -->
+                        Hot Beans Web is a growing web development company that creates modern websites for local businesses. We pride ourselves on being a supportive environment for new talent to thrive.
+                    </p>
+                </div>
+
+                <br>
+
+                <div class="card" style="flex: 1; text-align: left; border-bottom: none; background: #fff; border: 1px solid #ddd;"> <!-- Card section: What We Do -->
+                <span class="btn-orange" style="border-radius: 5px; padding: 5px 15px; pointer-events: none; display: inline-block;">What We Do</span> <!-- Section label -->
+                    <p style="margin-top: 15px;"> <!-- Description text -->
+                        Helping businesses grow through modern websites and digital solutions. From e-commerce to simple portfolios, we build it all.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" style="flex: 1; text-align: left; border-bottom: none; background: #fff; border: 1px solid #ddd;"> <!-- Right side card: Our Clients -->
+                <span class="btn-orange" style="border-radius: 5px; padding: 5px 15px; pointer-events: none; display: inline-block;">Our Clients</span> <!-- Section label -->
+                <ul style="margin-top: 20px; list-style-type: '• '; padding-left: 20px; line-height: 2;"> <!-- List of client types -->
+                    <li>Local Shops</li> <!-- Client type -->
+                    <li>Restaurants</li> <!-- Client type -->
+                    <li>Startups</li> <!-- Client type -->
+                    <li>Small Businesses</li> <!-- Client type -->
+                </ul>
+            </div>
+        </div>
+
+        <div style="margin: 40px 0; text-align: center; "> <!-- Image section -->
+            <img src="Images/about-1.png" alt="Team working" style="width: 100%; border-radius: 12px; height: 300px; object-fit: cover;"> <!-- Main image -->
+        </div>
+
+        <div class="grid"> <!-- Grid for additional images -->
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="Images/about-2.png" alt="Work 1" style="width: 100%; height: 200px; border-radius: 0; margin-bottom: 0;"> <!-- Image 1 -->
+            </div>
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="Images/about-3.png" alt="Work 2" style="width: 100%; height: 200px; border-radius: 0; margin-bottom: 0;"> <!-- Image 2 -->
+            </div>
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="Images/about-4.png" alt="Work 3" style="width: 100%; height: 200px; border-radius: 0; margin-bottom: 0;"> <!-- Image 3 -->
+            </div>
+        </div>
+    </main>
+
+    <footer> <!-- Footer section -->
+    <div class="footer-container">
+        <div class="footer-left"> <!-- Left side -->
+            <span class="footer-logo">Hot Beans</span> <!-- Footer logo -->
+        </div>
+
+        <div class="footer-center"> <!-- Centre -->
+            <a href="mailto:careers@hotbeans.com" class="footer-mail" style="color: var(--deep-blue); font-weight: bold;" ><u>careers@hotbeans.com</u></a> <!-- Email contact -->
+        </div>
+
+        <div class="footer-right"> <!-- Right side -->
+            <div class="social-icons"> <!-- Social media links -->
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a> <!-- YouTube link -->
+                <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a> <!-- TikTok link -->
+                <a href="https://web.telegram.org/k/" target="_blank"><i class="fab fa-telegram"></i></a> <!-- Telegram link -->
+                <a href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a> <!-- Facebook link -->
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Instagram link -->
+            </div>
+        </div>
+        <p style="color: black;" position: absolute;>Made by Oleh Datsyk</p>
+    </div>
+</footer>
+<script src="script.js"></script> <!-- Links JavaScript file -->
+</body>
+</html> <!-- End of document -->

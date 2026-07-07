@@ -1,0 +1,122 @@
+<!DOCTYPE html> <!-- Defines the document type as HTML5 -->
+<html lang="en"> <!-- Root HTML element with English language -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the site responsive on different devices -->
+    <title>Meet the Team: Hot Beans Web</title> <!-- Title shown in browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Links external CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet"> <!-- Imports Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Imports Font icons -->
+    <link rel="icon" type="image/jpg" href="images/logo.jpg"> <!-- Website logo -->
+</head>
+<body> <!-- Main content of the webpage -->
+<nav> <!-- Navigation bar -->
+    <div class="logo">Hot Beans Web</div> <!-- Website logo -->
+    <div class="hamburger"> <!-- Hamburger menu for mobile -->
+        <span></span> <!-- Line 1 -->
+        <span></span> <!-- Line 2 -->
+        <span></span> <!-- Line 3 -->
+    </div>
+    <ul class="nav-links"> <!-- Navigation links -->
+        <li><a href="index.html">Home</a></li> <!-- Home page -->
+        <li><a href="about.html">About</a></li> <!-- About page -->
+        <li><a href="meet-the-team.html" class="active-home">Meet the Team</a></li> <!-- Current page (active page) -->
+        <li><a href="job-roles.html">Job Roles</a></li> <!-- Jobs page -->
+        <li><a href="courses.html">Courses</a></li> <!-- Courses page -->
+        <li><a href="apply-now.html" class="nav-apply">Apply Now</a></li> <!-- Apply page -->
+    </ul>
+</nav>
+
+    <main class="container"> <!-- Main content -->
+    <h1>Meet the Team</h1> <!-- Page heading -->
+ 
+    <div class="grid"> <!-- Grid layout for content -->
+
+        <div class="team-card"> <!-- Card container -->
+            <div class="card-inner"> <!-- Inner wrapper for flip animation -->
+
+                <div class="card-front"> <!-- Front side of card -->
+                    <img src="Avatars/avatar-01.jpg" alt="Oleh" class="avatar"> <!-- Profile image -->
+                    <h3>Oleh: Full Stack Web Developer</h3> <!-- Name and role -->
+                    <p>Started as a trainee. Expert in HTML/CSS.</p> <!-- Short description -->
+                    <button class="btn-orange flip-btn">Bio & Skills</button> <!-- Button to flip card -->
+                </div>
+
+                <div class="card-back"> <!-- Back side of card -->
+                    <h3>Oleh: Bio & Skills</h3> <!-- Title -->
+                    <p>Oleh joined Hot Beans six months ago after earning his Level 3 Extended Diploma in IT. Initially concerned about his lack of industry experience, his disciplined work ethic and commitment to daily coding sprints allowed him to master the company’s tech stack in record time. He is known for his meticulous attention to detail and his ability to bridge the gap between complex back-end logic and sleek front-end design using HTML and CSS.
+                        <br>
+                        <b>Professional Advice:</b> "Don’t let a lack of experience stop you from applying. Focus on building a strong personal portfolio; showing what you can actually build is more important than how many years you've been in a classroom."</p> <!-- Detailed bio -->
+                    <button class="btn-orange flip-btn">Back</button> <!-- Flip back button -->
+                </div>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="card-inner">
+
+                <div class="card-front">
+                    <img src="Avatars/avatar-02.jpg" alt="Jenna" class="avatar">
+                    <h3>Jenna: Junior Developer</h3>
+                    <p>Joined after retail job. Works on UI/UX.</p>
+                    <button class="btn-orange flip-btn">Bio & Skills</button>
+                </div>
+
+                <div class="card-back">
+                    <h3>Jenna: Bio & Skills</h3>
+                    <p>Transitioning from a fast-paced retail environment, Jenna brought a high-energy work ethic and exceptional problem-solving skills to the team. She holds a Certification in JavaScript Algorithms and Data Structures, which she completed through self-study before joining us. At Hot Beans, she has mastered database management and server-side code. She is recognized for her "user-first" mentality, ensuring that every UI/UX decision makes the site easier to navigate.
+                        <br>
+                        <b>Professional Advice:</b> "The best way to learn is to break things. Don't be afraid of errors; every bug you fix is a lesson that makes you a more resilient developer. Stay curious and keep experimenting at home."</p>
+                    <button class="btn-orange flip-btn">Back</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="card-inner">
+
+                <div class="card-front">
+                    <img src="Avatars/avatar-03.jpg" alt="Xanthe" class="avatar">
+                    <h3>Xanthe: Back-End Developer</h3>
+                    <p>Focuses on Website Optimisation</p>
+                    <button class="btn-orange flip-btn">Bio & Skills</button>
+                </div>
+
+                <div class="card-back">
+                    <h3>Xanthe: Bio & Skills</h3>
+                    <p>Xanthe is currently completing a Level 4 Software Developer Apprenticeship with us. Her collaborative work ethic and proactive nature make her an essential part of our client projects. She balances four days of intensive back-end development with one day of formal study, specializing in website optimization and server efficiency. She is currently focused on mastering mobile-responsive frameworks to ensure our client sites are lightning-fast on all devices.
+                        <br>
+                        <b>Professional Advice:</b> "Communication is a technical skill. Being able to explain your code to others is just as important as writing the code itself. Find a mentor or a peer group to talk through your logic with regularly."</p>
+                    <button class="btn-orange flip-btn">Back</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</main>
+
+    <footer> <!-- Footer section -->
+    <div class="footer-container">
+        <div class="footer-left">
+            <span class="footer-logo">Hot Beans</span> <!-- Footer logo -->
+        </div>
+
+        <div class="footer-center"> <!-- Centre -->
+            <a href="mailto:careers@hotbeans.com" class="footer-mail" style="color: var(--deep-blue); font-weight: bold;" ><u>careers@hotbeans.com</u></a> <!-- Email link -->
+        </div>
+
+        <div class="footer-right"> <!-- Right side -->
+            <div class="social-icons"> <!-- Social media links -->
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a> <!-- YouTube link -->
+                <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a> <!-- TikTok link -->
+                <a href="https://web.telegram.org/k/" target="_blank"><i class="fab fa-telegram"></i></a> <!-- Telegram link -->
+                <a href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a> <!-- Facebook link -->
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Instagram link -->
+            </div>
+        </div>
+        <p style="color: black;" position: absolute;>Made by Oleh Datsyk</p>
+    </div>
+</footer>
+<script src="script.js"></script> <!-- Links JavaScript -->
+</body>
+</html> <!-- End of document -->

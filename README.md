@@ -1,5 +1,3 @@
-# hot-beans-web-college-project
-
 # 🌐 Hot Beans Web
 
 > A responsive recruitment website created as my Final College Web Development Project.
@@ -37,14 +35,24 @@ Visit the website here:
 
 ## 📸 Website Preview
 
-You can add screenshots here later.
+### 🏠 Home Page
+![Home Page](Images/index.png)
 
-Example:
+### ℹ️ About Us
+![About Page](Images/about-1.png)
 
-```
-Images/
-    index.png
-```
+### 👥 Meet the Team
+![Meet the Team](Images/about-2.png)
+
+### 💼 Job Roles
+![Job Roles](Images/job-main.png)
+
+### 📚 Courses
+![Courses](Images/thumb-1.png)
+
+### 📝 Apply Now
+![Apply Now](Images/about-4.png)
+
 
 ---
 

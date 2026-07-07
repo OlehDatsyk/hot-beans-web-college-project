@@ -36,7 +36,8 @@ Visit the website here:
 ## 📸 Website Preview
 
 ### 🏠 Home Page
-![Home Page](Images/index.png)
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/7ce4767a-7cf9-4cfa-9cf3-be5a55130bb7" />
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/d14a0664-8446-418b-badd-4033c004ccb9" />
 
 ### ℹ️ About Us
 ![About Page](Images/about-1.png)
